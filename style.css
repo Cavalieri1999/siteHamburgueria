@@ -26,10 +26,30 @@ header{
     transition: all 1500ms;
     background-color: aquamarine;
 }
+.perfil{
+    display: flex;
+    flex-direction: column;
+    /* padding: 0.5rem; */
+    /* border: solid; */
+    width: 5.5rem;
+    align-items: center;
+    padding: 0.5rem;
+}
+.perfil a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: black;
+}
+.perfil a:hover{
+    color:blue
+}
+.perfil img{
+    width: 4rem;
+}
 nav{
-    border: solid 1px black;
     padding: 2.5rem;
     text-align: center;
+    margin: auto;
 }
 .logo img{
     width: 6rem;
