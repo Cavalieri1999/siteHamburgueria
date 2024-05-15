@@ -8,7 +8,7 @@
     /* border: solid white; */
     width: 63rem;
     height: 35rem;
-    margin: 2rem 20rem;
+    margin: 2rem 25%;
     background-color: aqua;
     padding-top: 1rem;
 }
@@ -17,7 +17,7 @@
 }
 .container{
     border: solid white;
-    margin-left: 24rem;
+    margin-left: 35rem;
     height: 5rem;
     width: 20em;
     
@@ -38,6 +38,4 @@ section input{
     border-radius: 3rem;
     border: none;
 }
-section input :focus{
-    border: none;
-}
+
