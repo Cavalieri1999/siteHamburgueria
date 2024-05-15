@@ -13,7 +13,6 @@
     padding-top: 1rem;
 }
 .tittletopic{
-    /* border: solid white; */
     text-align: center;
 }
 .container{
@@ -21,7 +20,7 @@
     margin-left: 24rem;
     height: 5rem;
     width: 20em;
-
+    
 }
 .etapa{
     display: flex;
@@ -36,4 +35,9 @@
 }
 section input{
     margin: 3px;
+    border-radius: 3rem;
+    border: none;
+}
+section input :focus{
+    border: none;
 }

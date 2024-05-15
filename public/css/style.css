@@ -1,59 +1,71 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: black;
 }
-header{
+
+header {
     height: 6rem;
     background-color: white;
     display: flex;
 }
-.imenu li{
-    display: inline;   
+
+.imenu li {
+    display: inline;
     margin: 2rem;
 }
-.imenu a{
+
+.imenu a {
     text-decoration: none;
-    color: black;  
-    padding:0.7rem;
+    color: black;
+    padding: 0.7rem;
     background-color: gray;
-    
+
 }
-.imenu a:hover{
+
+.imenu a:hover {
     transition: all 1500ms;
     background-color: aquamarine;
 }
-.perfil{
+
+.perfil {
     display: flex;
     flex-direction: column;
     width: 5.5rem;
     align-items: center;
     padding: 0.5rem;
 }
-.perfil a{
+
+.perfil a {
     text-decoration: none;
     font-size: 0.9rem;
     color: black;
 }
-.perfil a:hover{
-    color:blue
+
+.perfil a:hover {
+    color: blue
 }
-.perfil img{
+
+.perfil img {
     width: 4rem;
 }
-nav{
+
+nav {
     padding: 2.5rem;
     text-align: center;
     margin: auto;
 }
-.logo img{
+
+.logo img {
     width: 6rem;
     height: 6rem;
 }
-.container{
+
+.container {
     margin: 3rem 12rem;
     width: 70rem;
     height: 29rem;
@@ -63,23 +75,37 @@ nav{
     align-items: center;
     padding: 4rem;
 }
+
 .container .opcao {
-    border: solid 3px white;
+    background-color: rgb(63, 75, 87);
+    /* border: solid 3px white; */
     width: 12rem;
     height: 8rem;
     border-radius: 40px;
     margin: 0.5rem;
     text-align: center;
+
 }
-.container .opcao :hover{
-    transition: 0.5s ease-in-out;
+
+.container .opcao :hover {
+    transition: 1s ease;
     border-radius: 40px;
+    background-color: antiquewhite;
 }
-.linhaDeOpt{
+
+.linhaDeOpt {
     display: flex;
     border: solid;
+    height: 11rem;
 }
-.opcao img{
+
+.opcao img {
     width: 12rem;
     height: 7.9rem;
+    border-radius: 40px;
+
+}
+
+.opcao p {
+    color: white;
 }
