@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
@@ -21,9 +22,10 @@ header {
 
 .imenu a {
     text-decoration: none;
-    color: black;
     padding: 0.7rem;
     background-color: gray;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
 
 }
 
@@ -63,4 +65,28 @@ nav {
 .logo img {
     width: 6rem;
     height: 6rem;
+}
+
+p {
+    color: white;
+}
+
+.quemSomos {
+    width: 80rem;
+    border: solid white;
+    margin: 4rem 18%;
+    height: 40rem;
+    text-align: center;
+    padding: 1rem 1rem;
+}
+
+.quemSomos h1 {
+    color: white;
+    margin: 1rem;
+
+}
+
+.quemSomos p {
+    font-size: 1.5rem;
+    margin: 2rem;
 }
