@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastre-se</title>
-    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="/public/css/menu.css">
     <link rel="stylesheet" href="/public/css/cadastro.css">
 </head>
 
@@ -23,7 +23,7 @@
         </nav>
         <div class="perfil">
             <img src="/public/image/do-utilizador (1).png" alt="" id="iperfil">
-            <label for="iperfil"> <a href="#">Cadastre-se</a></label>
+            <label for="iperfil"> <a href="#">Login</a></label>
         </div>
     </header>
     <section class="cadastro">
@@ -77,21 +77,23 @@
             </div>
             <div class="etapa">
                 <div class="linha">
-                    <label for="rua">Rua</label>
-                    <input type="text" id="rua">
+                    <label for="tel1">Telefone¹</label>
+                    <input type="tel" id="tel1">
                 </div>
                 <div class="linha">
-                    <label for="bairro">Bairro</label>
-                    <input type="text" id="bairro">
+                    <label for="tel2">Telefone²</label>
+                    <input type="tel" id="tel2">
                 </div>
                 <div class="linha">
-                    <label for="cidade">Cidade</label>
-                    <input type="text" id="cidade">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
                 </div>
-                <input type="submit" value="Cadastrar-se">
+                <div class="inputSubmit">
+                    <input type="submit" value="Cadastrar-se" class="submit">
+                </div>
             </div>
 
-            
+
         </form>
     </section>
 

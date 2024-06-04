@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header {
+    height: 6rem;
+    background-color: white;
+    display: flex;
+}
+
+.imenu li {
+    display: inline;
+    margin: 2rem;
+}
+
+.imenu a {
+    text-decoration: none;
+    color: black;
+    padding: 0.7rem;
+    background-color: gray;
+
+}
+
+.imenu a:hover {
+    transition: all 1500ms;
+    background-color: aquamarine;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    width: 5.5rem;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.perfil a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: rgb(32, 168, 168);
+    transition: 0.5s;
+}
+
+.perfil a:hover {
+    color: rgb(0, 255, 170);
+}
+
+.perfil img {
+    width: 4rem;
+}
+nav {
+    padding: 2.5rem;
+    text-align: center;
+    margin: auto;
+}
+
+.logo img {
+    width: 6rem;
+    height: 6rem;
+}
