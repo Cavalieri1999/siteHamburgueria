@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
 }
 
 body {
@@ -10,19 +11,19 @@ body {
 
 .container {
     margin: 2% 26%;
-    width: 70rem;
-    height: 29rem;
+    width: 50%;
+    height: 50vh;
     border: solid 3px white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 4rem;
+    padding: 4%;
 }
 
 .container .opcao {
     background-color: rgb(63, 75, 87);
     /* border: solid 3px white; */
-    width: 12rem;
+    width: 24%;
     height: 8rem;
     border-radius: 40px;
     margin: 0.5rem;
@@ -38,14 +39,18 @@ body {
 
 .linhaDeOpt {
     display: flex;
-    border: solid;
-    height: 11rem;
+    align-items: center;
+    justify-content: center;
+    height: 18vh;
+    margin-bottom: 0.5rem;
+    width: 100%;
 }
 
 .opcao img {
-    width: 12rem;
     height: 7.9rem;
     border-radius: 40px;
+    width: 100%;
+    transition: ease-in-out 2s;
 
 }
 

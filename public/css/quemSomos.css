@@ -2,69 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 
 body {
     background-color: black;
-}
-
-header {
-    height: 6rem;
-    background-color: white;
-    display: flex;
-}
-
-.imenu li {
-    display: inline;
-    margin: 2rem;
-}
-
-.imenu a {
-    text-decoration: none;
-    padding: 0.7rem;
-    background-color: gray;
-    color: rgb(0, 0, 0);
-    font-weight: normal;
-
-}
-
-.imenu a:hover {
-    transition: all 1500ms;
-    background-color: aquamarine;
-}
-
-.perfil {
-    display: flex;
-    flex-direction: column;
-    width: 5.5rem;
-    align-items: center;
-    padding: 0.5rem;
-}
-
-.perfil a {
-    text-decoration: none;
-    font-size: 0.9rem;
-    color: black;
-}
-
-.perfil a:hover {
-    color: blue
-}
-
-.perfil img {
-    width: 4rem;
-}
-
-nav {
-    padding: 2.5rem;
-    text-align: center;
-    margin: auto;
-}
-
-.logo img {
-    width: 6rem;
-    height: 6rem;
 }
 
 p {
@@ -72,12 +14,13 @@ p {
 }
 
 .quemSomos {
-    width: 80rem;
+    width: 50%;
     border: solid white;
-    margin: 4rem 18%;
-    height: 40rem;
+    margin: 2% 26%;
+    height: 50vh;
     text-align: center;
     padding: 1rem 1rem;
+    overflow: auto;
 }
 
 .quemSomos h1 {
