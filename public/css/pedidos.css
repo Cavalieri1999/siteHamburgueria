@@ -18,7 +18,7 @@
     padding: 2rem 0 0;
 }
 .pedido{
-    width:  30%;
+    width:  17.87rem;
     /* border: solid white; */
     margin: 1.5rem 0;
     background-color: aqua;
@@ -26,7 +26,7 @@
     /* height: 100vh; */
     transition: 0.7s;
     overflow: hidden;
-    height: 5vh;
+    height:3rem;
 }
 .pedido h2,h4,p{
     margin: 2.3% 0;
