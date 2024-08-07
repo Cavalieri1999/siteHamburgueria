@@ -1,6 +1,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
 }
 body{
     background-color: black;
@@ -10,40 +11,35 @@ header {
     background-color: white;
     display: flex;
 }
-
 .imenu li {
     display: inline;
     margin: 2rem;
 }
-
 .imenu a {
     text-decoration: none;
     color: black;
     padding: 0.7rem;
     background-color: gray;
-
+    
+    transition:  0.7s;
 }
-
-.imenu a:hover {
-    transition: all 1500ms;
-    background-color: aquamarine;
+.imenu a:hover {  
+    background-color: yellow;
 }
-
 .perfil {
     display: flex;
     flex-direction: column;
     width: 6.5rem;
     align-items: center;
     padding: 0.5rem;
+    font-family: "Quicksand", sans-serif;
 }
-
 .perfil a {
     text-decoration: none;
     font-size: 0.9rem;
     color: rgb(32, 168, 168);
     transition: 0.5s;
 }
-
 .perfil a:hover {
     color: rgb(0, 255, 170);
 }

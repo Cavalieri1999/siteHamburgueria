@@ -4,21 +4,7 @@
     box-sizing: border-box;
     font-family: "Quicksand", sans-serif;
 }
-.div-bottom-left{
-    /* border: solid white; */
-    width: 100%;
-    height: 34.7vh;
-    display: flex;
-    justify-content: space-between;
-}
-.itens{
-    /* border: solid white; */
-    /* overflow: hidden; */
-    height: 100%;
-}
-.itens img{
-    /* border: solid white; */
-}
+
 body {
     background-color: black;
 }
@@ -26,7 +12,7 @@ body {
 .container {
     margin: 2% 15% 0;
     width: 70%;
-    height: 50vh;
+    height: 70vh;
     border: solid 2px #ffffff30 ;
     display: flex;
     flex-direction: column;
@@ -47,7 +33,8 @@ body {
 
 .container .opcao :hover {
     border-radius: 40px;
-    background-color: white;
+    background-color: yellow;
+    width: 100%;
 }
 
 .linhaDeOpt {
@@ -64,7 +51,7 @@ body {
 .opcao img {
     height: 7.9rem;
     border-radius: 40px;
-    width: 70%;
+    width: 100%;
     transition: ease-in-out 0.5s;
 
 }
@@ -93,5 +80,14 @@ body {
         margin-left: 2rem;
     }
     }
-  
+  @media (min-width: 1743px) {
+    .container{
+        padding: 4.5%;
+    }
+  }
+  @media (min-width: 1927px) {
+    .container{
+        padding: 7%;
+    }
+  }
  
