@@ -5,19 +5,19 @@
     font-family: "Quicksand", sans-serif;
 }
 .div-bottom-left{
-    border: solid white;
+    /* border: solid white; */
     width: 100%;
     height: 34.7vh;
     display: flex;
     justify-content: space-between;
 }
 .itens{
-    border: solid white;
+    /* border: solid white; */
     /* overflow: hidden; */
     height: 100%;
 }
 .itens img{
-    border: solid white;
+    /* border: solid white; */
 }
 body {
     background-color: black;
