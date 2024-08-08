@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Validação e Exibição de Divs</title>
+<style>
+  .itens {
+    padding: 20px;
+    background-color: #f0f0f0; /* Cor de fundo padrão */
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    display: none; /* Escondido por padrão */
+    transition: background-color 0.3s ease, display 0.3s ease; /* Transição suave */
+  }
+
+  .buscas input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+  <section>
+    <div class="buscas">
+      <div>
+        <input type="text" placeholder="Digite aqui" required pattern="[A-Za-z\s]{3,}">
+      </div>
+      <div>
+        <h1>Resultados Da Pesquisa</h1>
+      </div>
+    </div>
+    <div class="resultados-container">
+      <div class="itens"></div>
+      <div class="itens"></div>
+      <div class="itens"></div>
+    </div>
+  </section>
+
+  <script>
+    const input = document.querySelector('.buscas input');
+    const itens = document.querySelectorAll('.itens');
+
+    input.addEventListener('input', function() {
+      if (input.validity.valid) {
+        itens.forEach(item => {
+          item.style.display = 'block'; // Exibe as divs
+          item.style.backgroundColor = '#FFEB3B'; // Fundo amarelo
+        });
+      } else {
+        itens.forEach(item => {
+          item.style.display = 'none'; // Esconde as divs
+        });
+      }
+    });
+  </script>
+</body>
+</html>

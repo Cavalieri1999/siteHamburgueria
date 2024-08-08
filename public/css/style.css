@@ -13,7 +13,7 @@ body {
     margin: 2% 15% 0;
     width: 70%;
     height: 70vh;
-    border: solid 2px #ffffff30 ;
+    border: solid 2px #ffffff30;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +23,7 @@ body {
 .container .opcao {
     background-color: rgb(63, 75, 87);
     /* border: solid 3px white; */
-    height: 80%;
+    height: 100%;
     border-radius: 40px;
     margin: 0.5rem;
     text-align: center;
@@ -33,7 +33,7 @@ body {
 
 .container .opcao :hover {
     border-radius: 40px;
-    background-color: yellow;
+    background-color: #ed9d07;
     width: 100%;
 }
 

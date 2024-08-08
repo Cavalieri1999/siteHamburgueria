@@ -6,7 +6,7 @@
 }
 .sectionPedidos{
     width: 50%;
-    border: solid white;
+    border: solid 2px #ffffff30;
     /* background-color: brown; */
     height: 50vh;
     margin: 2% 26%;
@@ -22,7 +22,8 @@
     width:  17.87rem;
     /* border: solid white; */
     margin: 1.5rem 0;
-    background-color: aqua;
+    background-color: rgb(237, 157, 7);
+    /* background-color: aquas; */
     text-align: center;
     /* height: 100vh; */
     transition: 0.7s;
@@ -36,7 +37,7 @@
     font-size: 0.8em;
 }
 .pedido:hover{
-    /* transform: scale(1.1); */
-    height: 13vh;
+    transform: scale(1.1);
+    height: 12rem;
     cursor:pointer;
 }
